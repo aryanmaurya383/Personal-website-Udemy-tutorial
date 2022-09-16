@@ -1,0 +1,277 @@
+/* #002B5B */
+/* #2B4865 */
+/* #256D85 */
+/* #8FE3CF */
+/* #### */
+/* #29A0B1 */
+/* #167D7F */
+/* #98D7C2 */
+/* #DDFFE7 */
+/* #### */
+/* #181818 */
+/* #8758FF */
+/* #5CB8E4 */
+/* #F2F2F2 */
+/* #### */
+/* #645CAA */
+/* #A084CA */
+/* #BFACE0*/
+/* #EBC7E8 */
+@font-face {
+  font-family: Reklame;
+  src: url("fonts/Reklame Script Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Poppins-medium-italic;
+  src: url("fonts/Poppins-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Poppins-medium;
+  src: url("fonts/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  margin: 0px auto 0 auto;
+  padding-top: 40px;
+  font-family: "Reklame";
+  font-size: 800.5%;
+  color: #181818;
+  position: relative;
+  padding-left: 50px;
+  ;
+}
+
+.heading h2 {
+  color: #002B5B;
+}
+
+h3 {
+  font-family: "Montserrat";
+}
+
+.top-container {
+  margin: 0;
+  background-image: linear-gradient(0deg, #EBC7E8, #8758FF);
+  height: 720px;
+}
+
+.top-text h3 {
+  font-family: "Poppins-medium";
+  padding-top: 60px;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #002B5B;
+  padding-left: 50px;
+}
+
+.profile-image img {
+  position: absolute;
+  top: 150px;
+  right: 150px;
+  float: right;
+  transform: translateX(-10%);
+  transition: bottom 1s, left 1s;
+}
+
+.navbar {
+  position: absolute;
+  top: 60px;
+  right: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #EBC7E8;
+  font-size: 30px;
+  padding: 0 10px 0;
+}
+
+.quote h3 {
+  padding-top: 60px;
+  padding-left: 50px;
+  font-style: "Montserrat";
+  font-size: 2rem;
+  color: #3d1287;
+}
+
+.quote p {
+  padding-left: 50px;
+  font-style: "Montserrat";
+  font-size: 1.5rem;
+  color: #3d1287;
+}
+
+#mid-container {
+  background-color: #E7E1FF;
+  height: 870px;
+}
+
+.pre-mid {
+  text-align: center;
+  padding-left: 20px;
+  margin-bottom: 50px;
+  background-color: #BFACE0;
+}
+
+.pre-mid h2 {
+  font-family: Poppins-medium;
+  font-size: 50px;
+}
+
+#mid-container p {
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.programming {
+  font-family: Poppins-medium;
+  margin-left: 25%;
+  margin-bottom: 7%;
+}
+
+.programming-img {
+  width: 15%;
+  height: 15%;
+  padding-left: 20px;
+  float: left;
+}
+
+.programming h2 {
+  margin-left: 25px;
+}
+
+.programming p {
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+.drawing {
+  font-family: Poppins-medium;
+  margin-left: 25%;
+  margin-bottom: 7%;
+}
+
+.drawing-img {
+  width: 20%;
+  float: right;
+  height: 20%;
+  position: relative;
+  right: 33%;
+}
+
+.drawing h2 {
+  margin-left: 25px;
+}
+
+.drawing p {
+  margin-left: 25px;
+}
+
+.sports {
+  font-family: "Poppins-medium";
+  margin-left: 25%;
+  margin-bottom: 10%;
+}
+
+.sports img {
+  width: 14%;
+  height: 14%;
+  padding-left: 20px;
+  float: left;
+}
+
+.sports h2 {
+  margin-left: 25px;
+}
+
+.sports p {
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+.bottom-container {
+  font-family: "Poppins-medium";
+  background-color: #E7E1FF;
+  height: 670px;
+}
+
+.achievements-heading {
+  font-family: "Poppins-medium";
+  font-size: 32px;
+  text-align: center;
+  padding-top: 10px;
+  height: 70px;
+  padding-left: 20px;
+  background-color: #BFACE0;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.table .thead-dark th {
+  color: #fff;
+  background-color: #8D86E2;
+  border-color: #32383e;
+  padding-left: 20px;
+  font-size: 1.25rem;
+}
+
+.table-striped tbody tr:nth-of-type(odd) * {
+  --bs-table-accent-bg: var(--bs-table-striped-bg);
+  color: var(--bs-table-striped-color);
+  background-color: #B8DAFF;
+  padding-left: 20px;
+  font-size: 1.25rem;
+}
+
+.table-striped tbody tr:nth-of-type(even) * {
+  --bs-table-accent-bg: var(--bs-table-striped-bg);
+  color: var(--bs-table-striped-color);
+  background-color: #FFF;
+  padding-left: 20px;
+  font-size: 1.25rem;
+}
+
+#footer {
+  text-align: center;
+  background-color: #BFACE0;
+  height: 130px;
+}
+
+#footer h3 {
+  font-family: "Poppins-medium";
+  font-size: 2rem;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #4D2F9A;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+#footer a:hover {
+  color: #826abf;
+}
